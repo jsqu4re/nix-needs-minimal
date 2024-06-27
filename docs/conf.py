@@ -90,14 +90,14 @@ html_theme_options = {
     "toc_title_is_page_title": True,
 }
 
-# -- Options for PlantUML extension ---------------------------------------
+# -- Options for PlantUML extension ----------------------------------------
 
 plantuml = f"plantuml"
 
 # plantuml_output_format = 'png'
 plantuml_output_format = "svg_img"
 
-# -- Options for Needs extension ---------------------------------------
+# -- Options for Needs extension -------------------------------------------
 
 needs_debug_measurement = False
 
