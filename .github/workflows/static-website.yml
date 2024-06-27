@@ -30,15 +30,14 @@ jobs:
       - name: Enable Nix Cache
         uses: DeterminateSystems/magic-nix-cache-action@v6
 
-      - run: "nix develop"
-      - run: "sphinx-build docs out"
+      - run: "nix build"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'out'
+          path: 'result/out'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

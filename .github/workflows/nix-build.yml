@@ -1,4 +1,4 @@
-name: Nix Develop
+name: Nix Build
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  develop:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,4 +19,4 @@ jobs:
       - name: Enable Nix Cache
         uses: DeterminateSystems/magic-nix-cache-action@v6
 
-      - run: "nix develop"
+      - run: "nix build"
