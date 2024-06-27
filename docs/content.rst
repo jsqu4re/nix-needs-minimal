@@ -1,0 +1,4 @@
+.. _content:
+
+Some content
+============

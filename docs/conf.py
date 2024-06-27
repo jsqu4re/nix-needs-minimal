@@ -56,8 +56,8 @@ html_theme_options = {
         "repo": "fontawesome/brands/github",
     },
     "site_url": "https://sphinx-needs.readthedocs.io/",
-    "repo_url": "https://github.com/useblocks/sphinx-needs",
-    "repo_name": "Sphinx-Needs",
+    "repo_url": "https://github.com/jsqu4re/nix-needs-minimal",
+    "repo_name": "Nix-Needs-Minimal",
     "edit_uri": "blob/master/docs",
     "globaltoc_collapse": True,
     "features": [
